@@ -73,7 +73,7 @@ h1 {
 .navbar-default .nav li a {
   color: #fff;
   font-family: 'Open Sans', helvetica, arial, sans-serif;
-  font-weight: 700;
+  font-weight: 600;
   letter-spacing: 1px;
   text-transform: uppercase;
 }
@@ -242,9 +242,6 @@ h1 {
   letter-spacing: -1.5px;
 }
 .carousel-caption p {
-  font-weight: 700;
-  text-transform: uppercase;
-  text-shadow: none;
 }
 .caption-link {
   color: #fff;
@@ -359,7 +356,7 @@ li.pricing-title {
   font-weight: 600;
 }
 .testimonials {
-  padding-top: 40px;
+  padding-top: 637px;
   padding-bottom: 60px;
   background-color: #1ab394;
   background-image: url('../img/videoback.png');
@@ -386,8 +383,8 @@ li.pricing-title {
   color: #fff;
 }
 .btn-primary {
-  background-color: #1ab394;
-  border-color: #1ab394;
+  background-color: #ed4593;
+  border-color: #ed4593;
   color: #FFFFFF;
   font-size: 14px;
   padding: 10px 20px;
@@ -446,9 +443,6 @@ fieldset[disabled] .btn-primary.active {
   }
   /* Bump up size of carousel content */
   .carousel-caption p {
-    margin-bottom: 20px;
-    font-size: 14px;
-    line-height: 1.4;
   }
   .featurette-heading {
     font-size: 50px;
@@ -782,4 +776,45 @@ fieldset[disabled] .btn-primary.active {
 .tooth {
   height: 500px;
   margin-top: -45px;
+}
+.btn-appointment {
+  margin-top: 45px;
+  background-color: #ed4593 ;
+  border-color: #ed4593;
+  color: #FFFFFF;
+}
+
+.patientregistration {
+  margin-bottom: 30px;
+  padding-bottom: 7px;
+
+}
+
+.black-section {
+  background-color: #232323;
+}
+
+.patientregistration h2 {
+  font-size: 20px;
+  letter-spacing: -1px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #a9cf38;
+}
+
+.patientregistration p {
+  color: white;
+}
+
+.btn-outline {
+    color: inherit;
+  background-color: transparent;
+  transition: all .5s;
+}
+
+.servicesOffered h2 {
+    font-size: 20px;
+  letter-spacing: -1px;
+  font-weight: 600;
+  text-transform: uppercase;
 }
